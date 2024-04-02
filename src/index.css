@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    padding-top: 15rem;
+    background-color: hsl(0, 21%, 95%);
+    overflow-x: hidden;
+}
+
+tbody td {
+    padding: 5px 5px 5px 15px;
+}
+
+thead td {
+    padding: 5px 5px 5px 15px;
+}
+
+tfoot td {
+    padding: 5px 5px 5px 15px;
+}

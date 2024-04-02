@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Primary Web Package",
+        "resume": "For small and medium-sized businesses that want to start working on their online presence and make themselves known on the internet.",
+        "includes": [["Web Page", true], ["App ( PWA )", true], ["Payment Method", true], ["Social networks and contact", true], ["Security"], ["Testing", true]],
+        "cost": "500"
+    },
+    {
+        "title": "Primary App Package",
+        "resume": "For small and medium-sized companies that want to profit or make their business known through apps, Android, Apple, Desktop.",
+        "includes": [["Initial advice"], ["Payment Method", true], ["Social networks and contact", true], ["Security", true], ["Testing", true]],
+        "cost": "800"
+    }
+]
