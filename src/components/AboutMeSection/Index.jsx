@@ -5,7 +5,7 @@ export default function AboutMeSection() {
     <section id='aboutme' className="flex flex-col gap-6 items-center">
         <h5 className="text-3xl font-bold">about me</h5>
         <p className="w-6/12 text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam deleniti vel neque ipsa aperiam repudiandae, laborum ipsum temporibus tempore deserunt officiis eum aliquam exercitationem maiores voluptatum culpa atque tempora saepe.
+          I am a Full Stack developer with years of experience designing, developing, deploying and testing applications. The languages I master are JavaScript, Typescript and Python. My skills cover both the frontend, with the creation of user interfaces in Figma, and the backend, with the creation of APIs, I also perform tests on my applications to ensure their correct functioning.
         </p>
         <div className="flex gap-8">
             <div className="flex justify-center items-center h-16 w-16 bg-slate-950 rounded-full">

@@ -21,7 +21,9 @@ export default function Card({title, resume, titlesTable, cost}) {
       </table>
       <div className="flex justify-center">
         <p className="bg-orange-500 text-orange-950 pl-7 pr-7 pt-2 pb-2 rounded-md text-center font-bold hover:shadow-sm hover:shadow-slate-700">
-          <a href="" className="">Cost {cost} $</a>
+          <a href={import.meta.env.VITE_LINKEDIN_ROUTE} target='_blank' rel="noopener noreferrer" className="">
+            Cost {cost} $
+          </a>
         </p>
       </div>
     </div>

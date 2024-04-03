@@ -20,7 +20,7 @@ export default function Personalized({title, resume, titles}) {
       </table>
       <div className="flex justify-center">
         <p className="bg-orange-500 text-orange-950 pl-7 pr-7 pt-2 pb-2 rounded-md text-xl text-center font-bold hover:shadow-sm hover:shadow-orange-700">
-          <a href="">let's talk</a>
+          <a href={import.meta.env.VITE_LINKEDIN_ROUTE} target='_blank' rel="noopener noreferrer">let's talk</a>
         </p>
       </div>
     </div>
