@@ -1,10 +1,11 @@
+import { Icon } from "@iconify/react/dist/iconify.js"
 
 export default function Header() {
   return (
     <nav className="
-    fixed top-5 left-1/2 transform -translate-x-1/2 z-10
+    fixed top-5 left-1/2 transform -translate-x-1/2 z-30
     flex justify-between items-center
-    bg-slate-800 text-white font-semibold p-2 w-11/12 rounded-full">
+    bg-slate-900 text-white font-semibold p-2 w-11/12 rounded-full">
         <div className="
         flex items-center justify-center
         h-14 w-2/12 rounded-full"
@@ -22,9 +23,10 @@ export default function Header() {
         </ul>
         <div className="
         flex items-center justify-center
-        bg-slate-500 hover:bg-slate-800 hover:border-2 border-orange-400 hover:text-orange-500 h-14 w-2/12 rounded-full">
-          <a href={import.meta.env.VITE_LINKEDIN_ROUTE} target='_blank' rel="noopener noreferrer" className="font-semibold">          
+        hover:bg-orange-600 bg-slate-800 text-orange-500 border-2 border-orange-600 hover:text-slate-950 h-14 w-2/12 rounded-full">
+          <a href={import.meta.env.VITE_LINKEDIN_ROUTE} target='_blank' rel="noopener noreferrer" className="font-bold flex gap-3 items-center">          
             Contact Me
+            <Icon icon='ic:round-call' fontSize='1.5rem' style={{}}></Icon>
           </a>
         </div>
     </nav>

@@ -15,9 +15,9 @@ export default function Box() {
   })
 
   return (
-    <mesh ref={meshRef} scale={.6} position={[0,-0.7,2]} >
+    <mesh ref={meshRef} scale={2.8} position={[0,-0.7,-.5]} >
       <boxGeometry args={[1, 1, 1]} />
-      <meshStandardMaterial color="#ff6f00"  />
+      <meshStandardMaterial color="#f96b4d"  />
     </mesh>
   )
 }

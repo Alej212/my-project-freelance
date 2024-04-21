@@ -2,7 +2,7 @@
 export default function RecentWorksSection() {
   return (
     <div id="works" className="flex flex-col gap-16 p-5 w-10/12 rounded-xl text-center">
-        <h3 className="text-4xl font-semibold">Recent Works</h3>
+        <h3 className="text-4xl font-extrabold uppercase">Recent Works</h3>
         <div className="grid grid-cols-3 gap-10 justify-center">
             <div className="bg-black h-96 rounded-md overflow-hidden shadow-2xl relative">
               <div className="flex items-center justify-center

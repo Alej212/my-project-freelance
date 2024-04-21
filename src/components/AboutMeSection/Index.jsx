@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react';
 export default function AboutMeSection() {
   return (
     <section id='aboutme' className="flex flex-col gap-6 items-center">
-        <h5 className="text-3xl font-bold">about me</h5>
+        <h5 className="text-3xl font-extrabold uppercase">about me</h5>
         <p className="w-6/12 text-center">
           I am a Full Stack developer with years of experience designing, developing, deploying and testing applications. The languages I master are JavaScript, Typescript and Python. My skills cover both the frontend, with the creation of user interfaces in Figma, and the backend, with the creation of APIs, I also perform tests on my applications to ensure their correct functioning.
         </p>
